@@ -18,9 +18,11 @@ const Home: NextPage = () => {
 <section className='hidden md:flex'>
 <Sidebar/>
 </section>
-<section className='col-span-12 md:col-start-4 xl:col-start-3 '>
+<section className='col-span-12 md:col-start-4 xl:col-start-3  '>
 <Navbar/>
+<Dashboard/>
 </section>
+
 
     </div>
   )

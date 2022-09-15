@@ -2,5 +2,6 @@
 
 import  Sidebar  from "./Sidebar"
 import  Navbar  from "./Navbar"
+import  Stats  from "./Stats"
 
-export {Sidebar,Navbar}
+export {Sidebar,Navbar,Stats}
