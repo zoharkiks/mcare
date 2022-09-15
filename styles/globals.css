@@ -3,4 +3,15 @@
 @tailwind utilities;
 
 
+@layer components {
+    .full-bleed {
+      margin-inline: calc((100% - 100vw) / 2.2);
+  
+    }
+  .linkEffects{
+   @apply hover:bg-orange-100 transition-all px-8 py-2 hover:border-r-4 hover:border-red-500
+  }
+  
+  }
+
 
