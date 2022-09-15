@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stats } from '../components'
+import { Patient, Stats } from '../components'
 
 const Dashboard = () => {
   return (
@@ -22,6 +22,8 @@ const Dashboard = () => {
       textColor='text-orange-400'
       />
 
+<div className=" col-span-2 md:col-span-1
+">
 <Stats
       title="New Patients"
       stats='788'
@@ -31,6 +33,13 @@ const Dashboard = () => {
       textColor='text-green-400'
       />
 
+</div>
+
+
+<div className=" row-start-3
+">
+<Patient />
+</div>
     </div>
   )
 }

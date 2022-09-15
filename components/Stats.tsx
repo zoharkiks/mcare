@@ -3,7 +3,7 @@ import React from "react";
 
 const Stats = ({title,stats, icon,iconColor,textColor,iconBackground}) => {
   return (
-    <div className="grid grid-cols-2 bg-white py-6 rounded-2xl  ">
+    <div className="grid grid-cols-2 bg-white py-6 rounded-2xl h-full  ">
       <div className="  flex flex-col items-center justify-center ">
         <div className={`rounded-full ${iconBackground} p-3`}>
           <Icon
