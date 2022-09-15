@@ -2,22 +2,22 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 
 // import containers
-import {Footer,Hero}  from '../containers'
+import {Dashboard}  from '../containers'
 // import components
-import { Navbar } from "../components";
+import { Navbar, Sidebar } from "../components";
 
 const Home: NextPage = () => {
   return (
     <div >
       <Head>
-        <title>Your App Name</title>
+        <title>M.Care</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
 {/* Website Sections */}
+<Sidebar/>
 <Navbar/>
-<Hero/>
-<Footer/>
+<Dashboard/>
 
     </div>
   )

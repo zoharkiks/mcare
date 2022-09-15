@@ -1,5 +1,5 @@
 // Import all containers here for easy exports
-import  Footer  from "./Footer";
+import  Dashboard  from "./Dashboard";
 import  Hero  from "./Hero";
 
-export { Footer, Hero}
+export { Dashboard, Hero}
