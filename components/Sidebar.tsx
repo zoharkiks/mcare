@@ -5,7 +5,7 @@ const Sidebar = ({setOpen,open}) => {
 
 
   return (
-    <div className="fixed left-0 top-0 flex items-center justify-between h-screen flex-col border-r-2 bg-white  py-8 ">
+    <div className="fixed left-0 top-0 flex z-50 items-center justify-between h-screen flex-col border-r-2 bg-white  py-8 ">
      <Icon onClick={()=>setOpen(false)} className="absolute top-2 right-2 cursor-pointer md:hidden" icon="ant-design:close-outlined" />
       <h1 className=" text-3xl font-bold text-orange-600">
         M.<span className="text-black">Care</span>

@@ -3,7 +3,8 @@ import { Patient, Stats } from '../components'
 
 const Dashboard = () => {
   return (
-    <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 mt-10'>
+    <div className='grid grid-cols-2 lg:grid-cols-4  gap-4 mt-10'>
+      
       <Stats
       title="Appointments"
       stats='345'
@@ -22,8 +23,6 @@ const Dashboard = () => {
       textColor='text-orange-400'
       />
 
-<div className=" col-span-2 md:col-span-1
-">
 <Stats
       title="New Patients"
       stats='788'
@@ -33,10 +32,9 @@ const Dashboard = () => {
       textColor='text-green-400'
       />
 
-</div>
 
 
-<div className=" row-start-3
+<div className=" row-start- col-span-2 xl:col-span-1 xl:col-start-4 x
 ">
 <Patient />
 </div>

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="flex items-center justify-between md:py-4 md:px-2 ">
       <Icon
-        onClickCapture={() => setOpen(true)}
+        onClick={() => setOpen(true)}
         className="h-10 w-10 cursor-pointer md:hidden"
         icon="ic:baseline-menu-open"
       />
